@@ -3,15 +3,19 @@
   "version": "1.0.0",
   "description": "api de la aplicacion copia de air bnb",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon src/index.js localhost 8080"
   },
   "dependencies": {
-    "body-parser": "1.19.0",
-    "express": "4.16.4"
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
   },
   "devDependencies": {
-    "nodemon": "1.18.4"
+    "nodemon": "1.18.4",
+    "supabase": "^1.167.4"
   },
   "keywords": [],
   "author": "Juan Esteban hurtado",
